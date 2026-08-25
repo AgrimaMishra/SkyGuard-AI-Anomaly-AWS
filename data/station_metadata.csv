@@ -1,0 +1,2 @@
+station_id,station_name,dataset_name,parameters_used
+JENA_001,Jena Climate Station,Jena Climate 2009-2016,"temperature_c,pressure_hpa,relative_humidity_pct"

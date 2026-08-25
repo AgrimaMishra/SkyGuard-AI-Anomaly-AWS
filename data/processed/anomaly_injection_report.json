@@ -1,0 +1,76 @@
+{
+    "dataset": "Jena Climate 2009-2016",
+    "random_seed": 42,
+    "input_rows": 420551,
+    "canonical_rows_after_deduplication": 420224,
+    "duplicates_removed": 327,
+    "target_anomaly_rate_per_split": 0.03,
+    "overall_actual_anomaly_rate": 0.02999828662808407,
+    "total_injected_anomalies": 12606,
+    "split_summary": {
+        "train": {
+            "rows": 294156,
+            "normal_rows": 285332,
+            "anomaly_rows": 8824,
+            "anomaly_rate": 0.02999768830144549
+        },
+        "validation": {
+            "rows": 63034,
+            "normal_rows": 61143,
+            "anomaly_rows": 1891,
+            "anomaly_rate": 0.029999682710917918
+        },
+        "test": {
+            "rows": 63034,
+            "normal_rows": 61143,
+            "anomaly_rows": 1891,
+            "anomaly_rate": 0.029999682710917918
+        }
+    },
+    "anomaly_type_counts": {
+        "spike": 3150,
+        "drift": 2520,
+        "freeze": 2520,
+        "bias": 1889,
+        "noise": 1260,
+        "multivariate_inconsistency": 638,
+        "dropout": 629
+    },
+    "anomaly_parameter_counts": {
+        "temperature": 4421,
+        "humidity": 4098,
+        "pressure": 4087
+    },
+    "robust_statistics_from_train": {
+        "temperature": {
+            "median": 9.18,
+            "q1": 2.98,
+            "q3": 15.32,
+            "iqr": 12.34,
+            "std": 8.651037990442015
+        },
+        "pressure": {
+            "median": 989.11,
+            "q1": 983.61,
+            "q3": 994.09,
+            "iqr": 10.480000000000018,
+            "std": 8.299070694383207
+        },
+        "humidity": {
+            "median": 79.2,
+            "q1": 65.05,
+            "q3": 89.4,
+            "iqr": 24.35000000000001,
+            "std": 16.53492949441991
+        }
+    },
+    "anomaly_distribution": {
+        "spike": 0.25,
+        "drift": 0.2,
+        "freeze": 0.2,
+        "bias": 0.15,
+        "noise": 0.1,
+        "dropout": 0.05,
+        "multivariate_inconsistency": 0.05
+    }
+}

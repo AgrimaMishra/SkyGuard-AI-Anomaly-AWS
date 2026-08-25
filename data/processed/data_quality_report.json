@@ -1,0 +1,36 @@
+{
+    "dataset": "Jena Climate 2009-2016",
+    "station_id": "JENA_001",
+    "row_count": 420551,
+    "timestamp_range": {
+        "start": "2009-01-01T00:10:00",
+        "end": "2017-01-01T00:00:00"
+    },
+    "duplicates": {
+        "exact_duplicate_rows": 327,
+        "duplicate_timestamps": 327
+    },
+    "missing_values": {
+        "timestamp": 0,
+        "station_id": 0,
+        "temperature_c": 0,
+        "pressure_hpa": 0,
+        "relative_humidity_pct": 0
+    },
+    "sampling": {
+        "expected_interval": "0 days 00:10:00",
+        "interval_gap_count": 5,
+        "estimated_missing_observations": 544
+    },
+    "suspect_values": {
+        "temperature": 0,
+        "pressure": 0,
+        "relative_humidity": 0,
+        "rows_with_any_suspect_value": 0
+    },
+    "basic_frozen_value_audit": {
+        "temperature_consecutive_equal": 17915,
+        "pressure_consecutive_equal": 30047,
+        "humidity_consecutive_equal": 27784
+    }
+}
